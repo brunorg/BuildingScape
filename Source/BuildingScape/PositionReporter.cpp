@@ -21,8 +21,8 @@ void UPositionReporter::BeginPlay()
 	Super::BeginPlay();
 
 	FString OwnerName = GetOwner()->GetName();
-	UE_LOG(LogTemp, Warning, TEXT("Position Reporter reporting for dutty on %s!!!"), *OwnerName);
-	
+	FString OwnerLocation = GetOwner()->GetActorLocation().ToString();
+	UE_LOG(LogTemp, Warning, TEXT("%s located at %s"), *OwnerName, *OwnerLocation);
 }
 
 
