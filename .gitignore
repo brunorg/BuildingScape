@@ -9,6 +9,7 @@ Saved
 Content/StarterContent
 Content/StarterContent/Textures
 Content/StarterContent/HDRI
+*_BuiltData.uasset
 
 ######################
 # VS Generated Files #
@@ -18,3 +19,4 @@ Content/StarterContent/HDRI
 *.VC.opendb
 *.sln
 .vscode
+
