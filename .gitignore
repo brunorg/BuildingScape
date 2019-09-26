@@ -6,9 +6,10 @@ Binaries
 DerivedDataCache
 Intermediate
 Saved
-Content/StarterContent
-Content/StarterContent/Textures
-Content/StarterContent/HDRI
+Content/StarterContent/*
+Content/StarterContent/Props/*
+!Content/StarterContent/Props
+!Content/StarterContent/Props/SM_Door.uasset
 *_BuiltData.uasset
 
 ######################
